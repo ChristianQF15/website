@@ -1,0 +1,151 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+
+  .swiper-button-prev::after{
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .swiper-button-next::after{
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .swiper-button-next{
+    color: var(--red-color);
+  }
+  .swiper-button-prev{
+    color: var(--red-color);
+  }
+
+  .swiper-pagination-bullet{
+    background-color: var(--black-1-color);
+    opacity: 1;
+  }
+  .swiper-pagination-bullet-active{
+    background-color: var(--red-color);
+  }
+  
+  .menu{
+    position: relative;
+    top: 20px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+  
+  }
+  .navbar {
+    display: flex;
+  }
+  .menu-1 {
+    margin-right: 180px;
+  }
+  .menu-2 {
+    margin-left: 180px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-1 {
+    width: 0;
+  }
+  .logo-2 {
+    width: 150px;
+  }
+  .socials {
+    display: flex;
+  
+  }
+  
+  .social {
+    margin: 0 10px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid var(--red-color);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+  .social:hover {
+    background-color: var(--red-color);
+  }
+  .social img {
+    margin: 8px 0 0 10px;
+  }
+  .menu .navbar ul li {
+    position: relative;
+    float: left;
+  }
+  
+  .menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: var(--white-color);
+    display: block;
+  
+  }
+  .menu .navbar ul li a:hover {
+    color: var(--red-color);
+  }
+  #menu {
+    display: none;
+  }
+  .menu-icono {
+    width: 25px;
+  }
+  .menu label {
+    cursor: pointer;
+    display: none;
+  }
+  .header-content {
+    margin-top: 200px;
+    padding-bottom: 20px;
+  }
+  .slider {
+    display: flex;
+    align-items: center;
+  }
+  .slider-txt {
+    margin-left: 85px;
+    width: 50%;
+  }
+  .slider-txt h1 {
+    font-size: 70px;
+    color: var(--white-color);
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  .slider-txt p {
+    font-size: 18px;
+    color: var(--white-1-color);
+  }
+  
+  .botones {
+    margin-top: 50px;
+  
+  }
+  .btn-1 {
+    display: inline-block;
+    padding: 15px 35px;
+    border: 2px solid var(--red-color);
+    color: var(--white-color);
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    border-radius: 50px;
+  }
+  .btn-1:hover {
+    background-color: var(--red-color);
+  }
+  
+  .slider-img {
+    width: 50%;
+  }
+  .slider-img img {
+    padding: 10px;
+    margin-right: 225px;
+    width: 500px;
+  }

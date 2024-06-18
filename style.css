@@ -1,0 +1,17 @@
+/***********************************/
+/******* IMPORT STYLES CSS *********/
+/***********************************/
+@import url(styles/config.css);
+@import url(styles/header.css);
+@import url(styles/main.css);
+@import url(styles/info.css);
+@import url(styles/infoData.css);
+@import url(styles/map.css);
+@import url(styles/footer.css);
+
+
+/***********************************/
+/******* IMPORT MEDIA QUERY ********/
+/***********************************/
+
+@import url(styles/mediaQuery.css);

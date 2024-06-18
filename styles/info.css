@@ -1,0 +1,56 @@
+/***********************************/
+/*********** STYLE INFO ************/
+/***********************************/
+
+.info {
+    height: 500px;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+
+    .info-img {
+      width: 50%;
+
+      img {
+        width: 500px;
+        height: 250px;
+      }
+    }
+    .info-txt {
+      width: 50%;
+      height: 100%;
+      
+      h2 {
+        font-size: 75px;
+        color: #ffffff;
+        font-weight: 800;
+        text-transform: uppercase;
+        margin-bottom: 25px;
+        letter-spacing: 5px;
+      }
+      p {
+        font-size: 18px;
+        color: #a7a7a7;
+        margin-bottom: 50px;
+        text-align: justify;
+      }
+      .btn-2 {
+        box-sizing: border-box;
+        display: inline-block;
+        padding: 15px 35px;
+        background-color: #DB241B;
+        color: #ffffff;
+        font-weight: 400;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        border-radius: 50px;
+        
+
+        &:hover {
+          background-color: transparent;
+          color: #DB241B;
+          border: 2px solid #DB241B;
+        }
+      }
+    }
+}
